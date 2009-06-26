@@ -1,0 +1,33 @@
+Purpose: 
+Determine if a Twitter user has another user in thier 1st, 2nd or 
+3rd degree of connections
+Limitations: 
+Running 3rd degree checks on users that have a lot of followers/friends 
+will result in using all your available API hit. Twitter developer 
+account recommended!
+
+Usage: twitmap.rb <twit1> <twit2> 
+Result: Will show connections between nodes. E.g.: brookr -> tj
+
+Example: 
+> ./twitmap.rb brookr laughingsquid
+ brookr -> carlosdavis -> laughingsquid
+> ./twitmap.rb sarahr pop17
+ sarahr -> brookr -> WhitScott -> pop17
+
+Author: 
+Brook Riggio
+http://twitter.com/brookr
+
+History:
+2009-05-26: 
+Version .1: "We might have something here"
+ – Now checks the 3rd degree as intended
+ – Various optimizations to reduce API hits
+ – Refactorings!
+
+2009-02-20:
+Version 0.0.1: "Proof of concept"
+ – Checks first and second degree
+ – Uses lots of API hits
+ – But keeps track of those API hits used!
