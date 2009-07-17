@@ -7,4 +7,5 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'tootils'
 
 class Test::Unit::TestCase
+  include Tootils
 end

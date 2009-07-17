@@ -45,8 +45,11 @@ Brook Riggio
 http://twitter.com/brookr
 
 History:
+2009-07-16:
+Version 0.1.1: "Gemified!"
+ – Thanks to @jackdanger for using technicalpickles-jeweler to set up the gem
 2009-07-15: 
-Version .2: "Layout the API"
+Version 0.1.0: "Layout the API"
  – Renamed project Tootils, to make space for other utilities
  – Totally refactored
  – Graph now shows all connections between two users
@@ -54,7 +57,7 @@ Version .2: "Layout the API"
  – Renamed links_to to graph
  – Better data structure for graph results
 2009-05-26: 
-Version .1: "We might have something here"
+Version 0.0.2: "We might have something here"
  – Now checks the 3rd degree as intended
  – Various optimizations to reduce API hits
  – Refactorings!

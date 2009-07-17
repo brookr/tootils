@@ -1,7 +1,11 @@
 require 'test_helper'
 
 class TootilsTest < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+  should "build auth hash" do
+    assert !Tootils::Tools.new('user', 'pass').options.empty?
+  end
+  
+  should "find first degree connections" do
+    assert !Tootils::Tools.new('user', 'pass').graph('brookr', 'jackdanger')[1].empty?
   end
 end

@@ -2,28 +2,28 @@
 
 Gem::Specification.new do |s|
   s.name = %q{tootils}
-  s.version = "0.0.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Jack Danger Canty"]
+  s.authors = ["Brook Riggio"]
   s.date = %q{2009-07-16}
-  s.email = %q{gitcommit@6brand.com}
+  s.email = %q{brookr@brookr.com}
   s.extra_rdoc_files = [
     "LICENSE",
-     "README.markdown"
+     "README"
   ]
   s.files = [
     ".document",
      ".gitignore",
      "LICENSE",
-     "README.markdown",
+     "README",
      "Rakefile",
      "VERSION",
      "lib/tootils.rb",
      "test/test_helper.rb",
      "test/tootils_test.rb"
   ]
-  s.homepage = %q{http://github.com/JackDanger/tootils}
+  s.homepage = %q{http://github.com/brookr/tootils}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.3}
